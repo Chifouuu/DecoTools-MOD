@@ -14,7 +14,7 @@
 		"14": "decotools:motexture/computer/cartem",
 		"1_0": "decotools:motexture/computer/cauldron_inner",
 		"1_2": "decotools:motexture/computer/blue_concrete",
-		"particle": "decotools:motexture/computers/cauldron_inner"
+		"particle": "decotools:motexture/computer/cauldron_inner"
 	},
 	"elements": [
 		{

@@ -1,0 +1,19 @@
+{
+  "variants":{
+    "facing=east": {
+      "model": "decotools:block/piano",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "decotools:block/piano"
+    },
+    "facing=south": {
+      "model": "decotools:block/piano",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decotools:block/piano",
+      "y": 270
+    }
+  }
+}

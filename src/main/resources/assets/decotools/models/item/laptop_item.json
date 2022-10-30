@@ -6,7 +6,7 @@
 		"1": "decotools:motexture/laptop/1",
 		"2": "decotools:motexture/laptop/2",
 		"3": "decotools:motexture/laptop/3",
-		"particle": "decotools:block/laptop/texture"
+		"particle": "decotools:block/laptop/2"
 	},
 	"elements": [
 		{

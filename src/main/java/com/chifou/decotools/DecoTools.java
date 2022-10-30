@@ -28,9 +28,6 @@ public class DecoTools
         BlockRegistries.BLOCKS.register(modEventBus);
         ItemRegistries.ITEMS.register(modEventBus);
 
-        com.chifou.decotools.reg.technologic.BlockRegistries.BLOCKS.register(modEventBus);
-        com.chifou.decotools.reg.technologic.ItemRegistries.ITEMS.register(modEventBus);
-
 
         MinecraftForge.EVENT_BUS.register(this);
     }
