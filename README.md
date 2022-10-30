@@ -3,12 +3,12 @@
 <p> Mod for decoration</p>
 
 <h5>Content inware:</h5>
-- Oak Table
-- Spruce Table
-- Oak Chair
+<p>- Oak Table</p>
+<p>- Spruce Table</p>
+<p>- Oak Chair</p>
 
 <h5>Content outware:</h5>
--bench
+<p>-bench</p>
 
 <h5>Content technologic:</h5>
 <p>- Screen (+ Keyboard and mouse)</p>
