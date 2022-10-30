@@ -1,0 +1,19 @@
+{
+  "variants":{
+    "facing=east": {
+      "model": "decotools:block/barel",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "decotools:block/barel"
+    },
+    "facing=south": {
+      "model": "decotools:block/barel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decotools:block/barel",
+      "y": 270
+    }
+  }
+}

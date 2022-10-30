@@ -29,4 +29,6 @@ public class ItemRegistries {
             ("rightscreen_item", () -> new BlockItem(BlockRegistries.RIGHT_SCREEN.get(), new Item.Properties().tab(DecoTools.technologieTabs)));
     public static final RegistryObject<Item> BENCH_ITEM = ITEMS.register
             ("bench_item", () -> new BlockItem(BlockRegistries.BENCH.get(), new Item.Properties().tab(DecoTools.outdoorTabs)));
+    public static final RegistryObject<Item> BAREL_ITEM = ITEMS.register
+            ("barel_item", () -> new BlockItem(BlockRegistries.BAREL.get(), new Item.Properties().tab(DecoTools.indoorTabs)));
 }
