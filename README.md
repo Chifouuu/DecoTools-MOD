@@ -11,7 +11,7 @@
 -bench
 
 <h5>Content technologic:</h5>
-- Screen (+ Keyboard and mouse)
-- Right screen
-- Left screen
-- Laptop
+<p>- Screen (+ Keyboard and mouse)</p>
+<p>- Right screen</p>
+<p>- Left screen</p>
+<p>- Laptop</p>
