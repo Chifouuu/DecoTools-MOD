@@ -1,0 +1,19 @@
+{
+  "variants":{
+    "facing=east": {
+      "model": "decotools:block/chair_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "decotools:block/chair_block"
+    },
+    "facing=south": {
+      "model": "decotools:block/chair_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decotools:block/chair_block",
+      "y": 270
+    }
+  }
+}

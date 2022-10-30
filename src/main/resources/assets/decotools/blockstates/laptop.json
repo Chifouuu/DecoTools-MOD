@@ -1,0 +1,19 @@
+{
+  "variants":{
+    "facing=east": {
+      "model": "decotools:block/laptop",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "decotools:block/laptop"
+    },
+    "facing=south": {
+      "model": "decotools:block/laptop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decotools:block/laptop",
+      "y": 270
+    }
+  }
+}

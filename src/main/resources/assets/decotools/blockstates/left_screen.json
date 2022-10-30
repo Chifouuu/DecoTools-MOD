@@ -1,0 +1,19 @@
+{
+  "variants":{
+    "facing=east": {
+      "model": "decotools:block/left_screen",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "decotools:block/left_screen"
+    },
+    "facing=south": {
+      "model": "decotools:block/left_screen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "decotools:block/left_screen",
+      "y": 270
+    }
+  }
+}
