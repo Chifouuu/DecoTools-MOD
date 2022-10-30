@@ -38,4 +38,6 @@ public class BlockRegistries {
             ("right_screen", () -> new ScreenBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register
             ("computer", () -> new ComputerBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> PIANO = BLOCKS.register
+            ("piano", () -> new PianoBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
 }

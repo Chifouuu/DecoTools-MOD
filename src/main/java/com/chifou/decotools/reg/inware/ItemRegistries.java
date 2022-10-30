@@ -2,7 +2,6 @@ package com.chifou.decotools.reg.inware;
 
 import com.chifou.decotools.DecoTools;
 import com.chifou.decotools.reg.inware.BlockRegistries;
-import com.chifou.decotools.reg.technologic.TBlockRegistries;
 import com.chifou.decotools.utils.Reference;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -32,4 +31,8 @@ public class ItemRegistries {
             ("leftscreen_item", () -> new BlockItem(BlockRegistries.LEFT_SCREEN.get(), new Item.Properties().tab(DecoTools.technologieTabs)));
     public static final RegistryObject<Item> RIGHTSCREEN_ITEM = ITEMS.register
             ("rightscreen_item", () -> new BlockItem(BlockRegistries.RIGHT_SCREEN.get(), new Item.Properties().tab(DecoTools.technologieTabs)));
+    public static final RegistryObject<Item> PIANO_ITEM = ITEMS.register
+            ("piano_item", () -> new BlockItem(BlockRegistries.PIANO.get(), new Item.Properties().tab(DecoTools.musicTabs)));
+    public static final RegistryObject<Item> COMPUTER_ITEM = ITEMS.register
+            ("computer_item", () -> new BlockItem(BlockRegistries.COMPUTER.get(), new Item.Properties().tab(DecoTools.technologieTabs)));
 }

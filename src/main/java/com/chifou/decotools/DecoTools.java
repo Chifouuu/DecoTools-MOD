@@ -3,6 +3,7 @@ package com.chifou.decotools;
 import com.chifou.decotools.reg.inware.BlockRegistries;
 import com.chifou.decotools.reg.inware.ItemRegistries;
 import com.chifou.decotools.tabs.IndoorTabs;
+import com.chifou.decotools.tabs.MusicTabs;
 import com.chifou.decotools.tabs.OutdoorTabs;
 import com.chifou.decotools.tabs.TechnologieTabs;
 import com.chifou.decotools.utils.Reference;
@@ -20,6 +21,7 @@ public class DecoTools
     public static final CreativeModeTab indoorTabs = new IndoorTabs("Indoor Tab");
     public static final CreativeModeTab outdoorTabs = new OutdoorTabs("Outdoor Tab");
     public static final CreativeModeTab technologieTabs = new TechnologieTabs("Technologie Tab");
+    public static final CreativeModeTab musicTabs = new MusicTabs("Music Tab");
 
     public DecoTools()
     {
