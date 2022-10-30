@@ -1,4 +1,4 @@
-package com.chifou.decotools.reg;
+package com.chifou.decotools.reg.inware;
 
 import com.chifou.decotools.models.inware.BarelBlock;
 import com.chifou.decotools.models.inware.BenchBlock;
@@ -28,14 +28,6 @@ public class BlockRegistries {
             ("bench", () -> new BenchBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
 
     //technologic
-    public static final RegistryObject<Block> LAPTOP = BLOCKS.register
-            ("laptop", () -> new LaptopBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> SCREEN = BLOCKS.register
-            ("screen", () -> new ScreenBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> LEFT_SCREEN = BLOCKS.register
-            ("left_screen", () -> new ScreenBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> RIGHT_SCREEN = BLOCKS.register
-            ("right_screen", () -> new ScreenBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> BAREL = BLOCKS.register
             ("barel", () -> new BarelBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().requiresCorrectToolForDrops()));
 }

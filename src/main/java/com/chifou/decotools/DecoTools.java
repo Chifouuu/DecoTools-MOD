@@ -1,7 +1,7 @@
 package com.chifou.decotools;
 
-import com.chifou.decotools.reg.BlockRegistries;
-import com.chifou.decotools.reg.ItemRegistries;
+import com.chifou.decotools.reg.inware.BlockRegistries;
+import com.chifou.decotools.reg.inware.ItemRegistries;
 import com.chifou.decotools.tabs.IndoorTabs;
 import com.chifou.decotools.tabs.OutdoorTabs;
 import com.chifou.decotools.tabs.TechnologieTabs;
@@ -27,6 +27,9 @@ public class DecoTools
 
         BlockRegistries.BLOCKS.register(modEventBus);
         ItemRegistries.ITEMS.register(modEventBus);
+
+        com.chifou.decotools.reg.technologic.BlockRegistries.BLOCKS.register(modEventBus);
+        com.chifou.decotools.reg.technologic.ItemRegistries.ITEMS.register(modEventBus);
 
 
         MinecraftForge.EVENT_BUS.register(this);
